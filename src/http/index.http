@@ -1,0 +1,21 @@
+@baseUrl = http://localhost:3003/api/blog
+
+### Get all blogs
+GET {{baseUrl}}/
+
+### Create blog
+POST {{baseUrl}}/
+Content-Type: application/json
+
+{
+  "author": "Alfoncina",
+  "title": "gringa sangrienta",
+  "url": "alguna-url",
+  "likes": 3
+}
+
+### Delete blog
+DELETE {{baseUrl}}/66402b7611d0c5c2da578c4d
+
+### Find blog
+GET {{baseUrl}}/663ed3fa4a62f8544f9743
