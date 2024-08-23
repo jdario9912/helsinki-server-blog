@@ -10,13 +10,13 @@ El comando "npm run test" levanta un contenedor para la base de datos test.
 
 Necesita estas variables de entorno para funcionar:
 
-PORT=3003
+PORT=
 
-MONGO_URI=mongodb+srv://joeldario9912:WkGn4dW4kBmrXDmc@blog-server.rkhukm4.mongodb.net/?retryWrites=true&w=majority&appName=blog-server
+MONGO_URI=
 
-MONGO_TEST_DB_CONTAINER_NAME=blog-db-test
-MONGO_TEST_DB_USER=usuario
-MONGO_TEST_DB_PASS=secreto
-MONGO_INITDB_DATABASE=blogs
-MONGO_TEST_DB_PORT=27017:27017
-MONGO_TEST_CONN_STR=mongodb://usuario:secreto@0.0.0.0:27017
+MONGO_TEST_DB_CONTAINER_NAME=
+MONGO_TEST_DB_USER=
+MONGO_TEST_DB_PASS=
+MONGO_INITDB_DATABASE=
+MONGO_TEST_DB_PORT=
+MONGO_TEST_CONN_STR=
